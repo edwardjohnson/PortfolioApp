@@ -28,6 +28,7 @@
   <!-- Important: Do not reference other stylesheets here! The build-script won't include them. 
        Instead use @import in style.css -->
   <link rel="stylesheet" href="/css/style.css">
+ <link rel="stylesheet" href="/css/960.css"><!-- added 960.gs -->
   <!-- end CSS-->
 
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -42,7 +43,9 @@
 
 <body>
 
-  <div id="container">
+  <div id="container" class="container_12"> <!-- added 960.gs -->
+<div class="grid_12">
+
     <header>
         {% include "header.html"%}
     </header>
@@ -52,7 +55,11 @@
     <footer>
         {% include "footer.html"%}
     </footer>
-  </div> <!--! end of #container -->
+
+</div> <!--! end of grid_12 -->
+
+
+</div> <!--! end of container_12 -->
 
 
   <!-- JavaScript at the bottom for fast page loading -->

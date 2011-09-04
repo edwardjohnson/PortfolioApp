@@ -152,6 +152,9 @@ img.logo_right {
     color: #fff;
 }
 
+::-moz-selection { background:#FF5E99; color:#fff; text=shadow: none;}
+::selection { background:#FF5E99; color:#fff; text=shadow: none;}
+
 .share-bar {
     overflow: hidden;
     margin: 40px 0 0;
@@ -170,6 +173,7 @@ img.logo_right {
     margin: 3em 0 0;
     font-size: 0.8125em;
 }
+/* Media queries for mobile */ 
 
 @media screen and (max-width:480px) {
     body {
