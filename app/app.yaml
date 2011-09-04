@@ -1,4 +1,4 @@
-# Replace 'ae-boilerplate' with your application name
+# Replace 'awesomewebapp' with your application name
 application: awesomewebapp
 version: 4
 runtime: python
