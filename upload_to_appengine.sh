@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Point CMD_APPCFG to your local appengine-sdk/appcfg.py
-CMD_APPCFG=""
+CMD_APPCFG="../google_appengine/appcfg.py"
 
 # Cache current directory
 DIR=$( pwd )
