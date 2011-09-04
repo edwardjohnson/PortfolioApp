@@ -1,6 +1,6 @@
 # Replace 'ae-boilerplate' with your application name
-application: ae-boilerplate
-version: 1 
+application: awesomewebapp
+version: 4
 runtime: python
 api_version: 1
 
