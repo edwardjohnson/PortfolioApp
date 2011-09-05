@@ -46,22 +46,9 @@ function build {
 
 
 
-
-
-read -p "Build the project with 'ant minify' now? [yN]" yn
-case $yn in
-    [Yy]* ) build;;
-    [Nn]* ) ;;
-esac
-
+build
 static_toprod
-
-read -p "You can now test the latest build. Do you wish to upload this version? [yN]" yn
-case $yn in
-    [Yy]* ) upload;;
-    [Nn]* ) ;;
-esac
-
+upload
 static_revert
 
 
