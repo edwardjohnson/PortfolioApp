@@ -1,1 +1,1 @@
-git commit -a && git push origin master && . upload_to_appengine.sh && y && y;
+git commit -a && git push origin master && . upload_to_appengine.sh go;

@@ -37,11 +37,24 @@ function upload {
     fi
 }
 
+
 function build {
   cd app/static_dev/build
   ant minify
   cd "$DIR"
 }
+
+if($1=='go') then
+
+  cd app/static_dev/build
+  ant minify
+  cd "$DIR"
+static_toprod
+upload
+static_revert
+
+ else
+
 
 read -p "Build the project with 'ant minify' now? [yN]" yn
 case $yn in
@@ -58,5 +71,5 @@ case $yn in
 esac
 
 static_revert
-
+fi
 
