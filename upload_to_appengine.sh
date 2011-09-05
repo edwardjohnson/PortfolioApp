@@ -44,7 +44,7 @@ function build {
   cd "$DIR"
 }
 
-if($1=='go') then
+if($1) then
 
   cd app/static_dev/build
   ant minify
