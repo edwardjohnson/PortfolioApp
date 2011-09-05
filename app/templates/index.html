@@ -12,13 +12,13 @@
 	<div class="row">
 	
 		<div class="fourcol">
-		
+		<!-- no cc 
 			<div class="cc">
 				<a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img src="img/cc.png" alt="Creative Commons Attribution 3.0 Australia License" /></a>
 			</div>
-		
+		-->
 			<div id="download">
-				<a href="http://download.cssgrid.net/1140_CssGrid_2.zip" title="Download the grid">
+				<a href="http://download.cssgrid.net/1140_CssGrid_2.zip" title="Download the Portfolio App">
 
 				<div id="button"></div>
 				<img src="img/download.png" alt="Download" />
@@ -26,38 +26,43 @@
 			</div>
 			
 			<div class="social">
-				<div class="twitter">
-				<p><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="andytlr">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></p>
-				</div>
+    <div class="share-bar"> 
+        <div class="share-opt"> 
+            <a rel="nofollow" class="twitter-share-button" 
+               href="http://twitter.com/share" 
+               data-count="vertical" 
+               data-text="Checking out App Engine Boilerplate"></a> 
+        </div> 
+        
+        <div class="share-opt"> 
+            <g:plusone size="tall"></g:plusone> 
+        </div> 
 
-				<div class="fb">
-				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcssgrid.net&amp;layout=button_count&amp;show_faces=true&amp;width=100&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true"></iframe>
-				</div>
+        <div class="share-opt"> 
+            <fb:like href="" send="false" layout="box_count" width="40" show_faces="false" font=""></fb:like> 
+            <div id="fb-root"></div> 
+        </div> 
+    </div> 
 			</div>
 			
 		</div> <!--/fourcol-->
-		
+
+<!-- to seperate the content -->
+	</div>
+</div> <!--/container-->		
 		<div class="sevencol last introcopy">
 
 
 
-    <p>App Engine Boilerplate is a fast, robust and future-proof base template to get your project off the ground quickly and right-footed. </p> 
-
-    <h2>What does it include?</h2> 
-        <img src="/img/h5bp-logo.png" class="logo_right" />
-        <img src="/img/appengine-logo.png" class="logo_right" />
-
    <ul> 
         <li><a rel="nofollow" href="http://www.html5boilerplate.com">HTML5 Boilerplate 2.0</a></li> 
-        <li><a rel="nofollow" href="http://www.html5boilerplate.com">HTML5 Boilerplate 2.0</a></li> 
-        <li>Build script to optimize images, js and css files</li> 
-        <li>960 Grid</li>
-        <li>Minimal code, detailed comments</li> 
+        <li><a rel="nofollow" href="http://www.html5boilerplate.com">1140 Grid</a></li> 
+   
 
     </ul> 
     
     {% if prefs %}<h2>Welcome, {{ prefs.nickname }}</h2>{% endif %}
-    
+    <!--
     <div class="demo"> 
         <a rel="nofollow" class="button" href="https://github.com/metachris/appengine-boilerplate">Visit on Github</a> 
          &nbsp;
@@ -69,7 +74,7 @@
             <a class="button" href="/login?continue=/">Test the Login</a>
          {% endif %}
     </div> 
-
+-->
     <p>App Engine Boilerplate just contains the things you need to get started. Take a look at the files and start building your idea!
     </p><p>
     The code is freely available under the BSD license so you can use it to build anything you want!
@@ -99,46 +104,14 @@ Setting /static back to /static_dev</pre>
 <p><br><small>Tip: HTML is located in <tt>/static_dev</tt>.</small></p>
  
  
-    <h2>How can I contribute?</h2>
-    <p>If you have ideas for changes to the project, join us on Github and file a ticket, or send over a pull request if you have working code!</p>
 
-    <div class="share-bar"> 
-        <div class="share-opt"> 
-            <a rel="nofollow" class="twitter-share-button" 
-               href="http://twitter.com/share" 
-               data-count="vertical" 
-               data-text="Checking out App Engine Boilerplate"></a> 
-        </div> 
-        
-        <div class="share-opt"> 
-            <g:plusone size="tall"></g:plusone> 
-        </div> 
-
-        <div class="share-opt"> 
-            <fb:like href="" send="false" layout="box_count" width="40" show_faces="false" font=""></fb:like> 
-            <div id="fb-root"></div> 
-        </div> 
-    </div> 
     
-    
-    <div class="footer"> 
-        <p><small>Contributions by <a rel="nofollow" href="http://twitter.com/edjohnson">Edward Johnson</a> <!--<small>★</small><a rel="nofollow" href="http://twitter.com/metachris">Chris Hager</a> <small>★</small> <a rel="nofollow" href="https://github.com/foamdino">Kev Jackson</a> <small>★</small> <a rel="nofollow" href="https://github.com/raultorres88">raultorres88</a></small>--></p> 
-    </div> 
+ 
 
 
 
 
-			<p>The 1140 grid fits perfectly into a 1280 monitor. On smaller monitors it becomes fluid and adapts to the width of the browser.</p>
-
-			<p>Beyond a certain point it uses media queries to serve up a mobile version, which essentially stacks all the columns on top of each other so the flow of information still makes sense.</p>
-			<p>Scrap 1024! Design once at 1140 for 1280, and with very little extra work, it will adapt itself to work on just about any monitor, even mobile.</p>
-
-
-
-
-
-
-			<a href="http://twitter.com/andytlr" class="twitter-follow-button" data-show-count="false">Follow @andytlr</a>
+			<a href="http://twitter.com/edjohnson" class="twitter-follow-button" data-show-count="false">Follow @edjohnson</a>
 			<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 			
 			<div id="influads_block" class="influads_block"> </div>
@@ -151,27 +124,38 @@ Setting /static back to /static_dev</pre>
 <div class="container details">
 	<div class="row">
 		<div class="fourcol">
-			<h2>Why 12 columns?</h2>
-			<p>Twelve divides into even columns of two, three, four or six.</p>
 
-			<p>Or into numerous uneven combinations like seven and five or five, four, three.</p>
-			<p>The last example is as simple as three divs with the classes <code>.fivecol</code>, <code>.fourcol</code> and <code>.threecol</code></p>
+			<h2>appengine boilerplate</h2>
+			forked from HTML5 Boilerplate for AppEngine so you get 
+
+
+
+			<h2>1140 Grid</h2>
+
+			<p>The 1140 grid fits perfectly into a 1280 monitor. On smaller monitors it becomes fluid and adapts to the width of the browser.</p>
+			<p>Beyond a certain point it uses media queries to serve up a mobile version, which essentially stacks all the columns on top of each other so the flow of information still makes sense.</p>
+			<p>Scrap 1024! Design once at 1140 for 1280, and with very little extra work, it will adapt itself to work on just about any monitor, even mobile.</p>
+
+
+
 			
 			<h2>Mobile version</h2>
 			<p>By mobile, I really mean smart phones. I'm not even attempting to support WAP phones or anything old like that. But it does work on devices that recognise 'handheld' in the style sheet media and/or media queries. With media queries you can even include x2 images for the iPhone 4 Retina Display.</p>
 
 			
-			<h2>Photoshop Template</h2>
-			<p>Download a Photoshop template of <a href="http://download.cssgrid.net/1140_CccGrid_Template.psd" class="ongreenlink">the grid at 1140px here</a>. It's based on how it's displayed in WebKit, so it's actually 1133px, as all browsers round sub-pixels slightly differently.</p>
-			
 		</div>
 		
 		<div class="fourcol">
+
+
+
+
+
 			<h2>New computers, old computers, netbooks, tablets, smartphones, some feature phones.</h2>
 			<p>So far I've tested it on a couple of MacBooks, an iMac, a PC laptop, an old PC, an Eee PC, an iPad, an iPhone 3G, an iPhone 4, a few Android phones, a Samsung Galaxy Tab, a BlackBerry and an older Nokia.</p>
 
 			
-			<h2>Browser support</h2>
+			<h2>Browser support</h2> 
 			<p>It works perfectly in Chrome, Safari, Firefox, IE7 & IE8.</p>
 			<p>It works alright in IE6. IE6 doesn't support <code>max-width</code>, so the grid doesn't fix to 1140px. It spans the full width of the browser. Most people using IE6 probably don't have monitors with a resolution higher than 1280x1024 though. Images are also not restrained to the width of the column because of max-width. But the extra image is hidden, rather than breaking the layout.</p>
 			<p><strong>Note:</strong> IE6 accounts for less than 1% of total traffic to <a href="http://www.catchingzebra.com/" class="ongreenlink">my blog</a>. Check your analytics.</p>
@@ -179,11 +163,20 @@ Setting /static back to /static_dev</pre>
 		</div>
 		
 		<div class="fourcol last">
-			<h2>Bigger gutters</h2>
-			<p>Because it's all based off percentages, the gutters vary in size. But at full width the gutters are about 40px wide.</p>
-			<h2>Images</h2>
+
+
+
+
+ 
+
+			<h2>Responsive Images</h2>
 			<p>If an image is smaller than the column it is contained in, it will be displayed at its original size. If it is larger then it will be shrunk to the width of the column. Don't define height and width of images inline, it'll break the proportions if they're scaled down.</p>
 			<a href="http://www.flickr.com/photos/andytlr/3186450801/" title="Fingers of god in Tuscany by andytlr, on Flickr"><img src="http://farm4.static.flickr.com/3379/3186450801_15413018e9.jpg" width="500" height="334" alt="Fingers of god in Tuscany" /></a>
+
+    <h2>How can I contribute?</h2>
+    <p>If you have ideas for changes to the project, join us on Github and file a ticket, or send over a pull request if you have working code!</p>
+
+
 
 		</div>
 	</div> <!--/row-->
@@ -237,6 +230,70 @@ Setting /static back to /static_dev</pre>
 		</div>
 	</div> <!--/row-->
 </div> <!--/container-->
+
+
+
+<div class="container markup">
+	<div class="row">
+		<div class="fourcol">
+			<h2>The markup</h2>
+
+			<pre>
+<span class="teal">&lt;div class="container"&gt;</span>
+  <span class="red">&lt;div class="row"&gt;</span>
+    <span class="purple">&lt;div class="threecol"&gt;</span>
+      <span class="lightgrey">&lt;p&gt;Column 1&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+
+    <span class="purple">&lt;div class="threecol"&gt;</span>
+      <span class="lightgrey">&lt;p&gt;Column 2&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+    <span class="purple">&lt;div class="threecol"&gt;</span>
+      <span class="lightgrey">&lt;p&gt;Column 3&lt;/p&gt;</span>
+
+    <span class="purple">&lt;/div&gt;</span>
+      <span class="purple">&lt;div class="threecol <span class="burntorange">last</span>"&gt;</span>
+    <span class="lightgrey">&lt;p&gt;Column 4&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+  <span class="red">&lt;/div&gt;</span>
+
+<span class="teal">&lt;/div&gt;</span>
+			</pre>
+		</div>
+		
+		<div class="sevencol last">
+		
+		
+   <h2>How do I get started?</h2> 
+    <p>Visit the <a rel="nofollow" href="https://github.com/edwardjohnson/PortfolioApp">GitHub repo</a> or download it in either <a rel="nofollow" href="https://github.com/edwardjohnson/PortfolioApp/zipball/master">zip</a> or <a rel="nofollow" href="https://github.com/edwardjohnson/PortfolioApp/tarball/master">tar</a> format. 
+    Here is a quick guide for the first steps:</p> 
+    <pre># (Have Python, Ant, Google AppEngine, and Git setup...)
+# Clone the repository
+$ git clone git@github.com:metachris/appengine-boilerplate.git
+$ cd appengine-boilerplate
+
+# Start the app engine devserver
+$ &lt;GAE_DIR>/dev_appserver.py app
+
+# You can now visit the site via localhost:8080
+$ google-chrome http://localhost:8080
+
+# To build and preview the site before uploading
+$ ./upload_to_appengine.sh 
+Build the project with 'ant minify' now? [yN]y
+... lots of build output ...
+Setting /static to /static_dev/publish
+You can now test the latest build. Do you wish to upload this version? [yN]n
+Setting /static back to /static_dev</pre>
+ 
+<p><br><small>Tip: HTML is located in <tt>/static_dev</tt>.</small></p>
+
+		</div>
+	</div> <!--/row-->
+</div> <!--/container-->
+
+
+
 
 
 <div class="ccbottom">
