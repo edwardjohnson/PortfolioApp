@@ -377,18 +377,13 @@ img.logo_right {
 	}
 	
 	.social {
-		position: absolute;
+margin-top: 75px;
+	/*	position: absolute;
 		top: 680px;
-		width: 212px;
+		width: 212px;*/
 	}
 	
-	.social .twitter {
-		float: left;
-	}
 	
-	.social .fb {
-		float: right;
-	}
 	
 	.teal {
 	color: #0eaeb4;
