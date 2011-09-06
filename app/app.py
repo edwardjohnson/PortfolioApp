@@ -13,11 +13,13 @@ import handlers
 # Map url's to handlers
 urls = [
     (r'/', handlers.Main),
+    (r'/example', handlers.Main),
     (r'/login', handlers.LogIn),
     (r'/_ah/login_required', handlers.LogIn),
     (r'/logout', handlers.LogOut),
     (r'/account', handlers.Account),
     (r'/account/setup', handlers.AccountSetup),
+    
 ]
 
 application = webapp.WSGIApplication(urls, debug=True)
