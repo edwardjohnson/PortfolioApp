@@ -52,6 +52,14 @@ class Main(BaseRequestHandler):
         # Render the template
         self.render("index.html")
 
+# example page request handler
+class Example(BaseRequestHandler):
+    def get(self):
+        # Render the template
+        self.render("example.html")
+    # self.response.out.write("<html><body><p>Hi there!</p></body></html>")       
+
+            
 
 # Account page and after-login handler
 class Account(BaseRequestHandler):

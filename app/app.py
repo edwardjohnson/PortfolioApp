@@ -13,7 +13,7 @@ import handlers
 # Map url's to handlers
 urls = [
     (r'/', handlers.Main),
-    (r'/example', handlers.Main),
+    (r'/example', handlers.Example),
     (r'/login', handlers.LogIn),
     (r'/_ah/login_required', handlers.LogIn),
     (r'/logout', handlers.LogOut),
