@@ -475,6 +475,20 @@ margin-top: 75px;
 		top: 60px;
 	}
 	
+	.navbar select {
+		display: none;
+}	
+ .navbar ul  {
+		position: absolute;
+		top: 60px;
+		list-style-type: none; 
+	}
+	
+.navbar ul li {  
+        display: inline; 
+        } 	
+        
+        
 	#resize {
 		position: fixed;
 		right:0px;
@@ -570,7 +584,18 @@ margin-top: 75px;
 	.paypal, #resize, .columns {
 		display: none;
 	}
+	
+.fork img {
+display: none;
+}
 
+	.navbar ul {
+		display: none;
+	}
+	
+.navbar select {
+	display: inline;
+}	
 }
 
 
